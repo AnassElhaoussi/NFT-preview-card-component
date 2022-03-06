@@ -40,6 +40,7 @@ body {
   margin-left: auto;
   width: 90%;
   border-radius: 1.4rem;
+  transition: 0.7s ease;
 }
 
 .main-text {
@@ -129,4 +130,17 @@ span {
 span:hover {
   color: rgb(226, 43, 89);
   cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .nft-box {
+    width: 70%;
+    margin-top: 40%;
+  }
+
+  .infos {
+    font-size: 1.3rem;
+    width: 95%;
+    margin-bottom: 0.2rem;
+  }
 }
